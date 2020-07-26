@@ -1,0 +1,65 @@
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin: 30px;
+    text-align: center;
+  }
+  div{
+    background-color: gray;
+  }
+  .chi,.be,.su{
+      background-color: hotpink;
+      width:100px;
+      text-align: center;
+      float: right;
+      border: 1px solid black;
+  }
+  p {
+    background-color: gray;
+    width: 90%;
+    font-family: Helvetica;
+    color: white;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 32.3%;
+      float: left;
+      margin: 5px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 48.6%;
+      float: left;
+      margin: 5px;
+    }
+    .full{
+      width: 99%;
+      float: left;
+    }
+  }
+  /********** Small devices only **********/
+  @media (max-width: 767px) {
+    .col-sm-4{
+      width: 99%;
+      margin: 5px;
+      border: 1px solid black;
+      float: left;
+      clear: both;
+    }
+  }
