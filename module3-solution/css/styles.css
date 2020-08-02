@@ -32,12 +32,14 @@ body {
 .con{
   background-color:gray;
   padding: 5px;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
-ul>li>.block{
+ul>li>a>.block{
   padding: 5px;
 }
 @media (min-width:768px){
-  ul>li>.block{
+  ul>li>a>.block{
     display: none;
   }
 }
@@ -53,6 +55,10 @@ ul>li>.block{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+section>a,section>a:hover{
+  text-decoration: none;
+  color:black;
 }
 /* END HEADER */
 
